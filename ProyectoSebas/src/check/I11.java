@@ -34,7 +34,7 @@ public class I11 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        I11.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\check\\M11.jpg")); // NOI18N
+        I11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/M11.jpg"))); // NOI18N
         I11.setText("jLabel1");
         getContentPane().add(I11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 471, -1));
 

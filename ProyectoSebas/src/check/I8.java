@@ -34,7 +34,7 @@ public class I8 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        I8.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\check\\M8.jpg")); // NOI18N
+        I8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/M8.jpg"))); // NOI18N
         I8.setText("jLabel1");
         getContentPane().add(I8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 475, -1));
 

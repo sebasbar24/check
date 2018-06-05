@@ -29,9 +29,9 @@ public class I12 extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
-        I12 = new javax.swing.JLabel();
         Nombre = new javax.swing.JTextField();
         correo = new javax.swing.JTextField();
+        I12 = new javax.swing.JLabel();
         guardar = new javax.swing.JButton();
 
         jButton1.setText("jButton1");
@@ -39,23 +39,25 @@ public class I12 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        I12.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\check\\M12.jpg")); // NOI18N
-        I12.setText("jLabel1");
-        getContentPane().add(I12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, -1));
-
+        Nombre.setText("Nombre");
         Nombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 NombreActionPerformed(evt);
             }
         });
-        getContentPane().add(Nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 230, 30));
+        getContentPane().add(Nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 230, 40));
 
+        correo.setText("ejemplo@hotmail.com");
         correo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 correoActionPerformed(evt);
             }
         });
-        getContentPane().add(correo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 230, 30));
+        getContentPane().add(correo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 230, 40));
+
+        I12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/M12.jpg"))); // NOI18N
+        I12.setText("jLabel1");
+        getContentPane().add(I12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, -1));
 
         guardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

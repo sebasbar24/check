@@ -37,7 +37,7 @@ public class I5 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        I5.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\check\\M5.jpg")); // NOI18N
+        I5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/M5.jpg"))); // NOI18N
         I5.setText("jLabel1");
         getContentPane().add(I5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 463, -1));
 

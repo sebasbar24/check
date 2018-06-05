@@ -32,11 +32,12 @@ public class I6 extends javax.swing.JFrame {
         procesov = new javax.swing.JButton();
         vol = new javax.swing.JButton();
         ajustes = new javax.swing.JButton();
+        salir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        I6.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\check\\M6.jpg")); // NOI18N
+        I6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/M6.jpg"))); // NOI18N
         I6.setText("jLabel1");
         getContentPane().add(I6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 467, -1));
 
@@ -61,6 +62,13 @@ public class I6 extends javax.swing.JFrame {
         });
         getContentPane().add(ajustes, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 90, 30));
 
+        salir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirActionPerformed(evt);
+            }
+        });
+        getContentPane().add(salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 100, 40));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -75,6 +83,10 @@ public class I6 extends javax.swing.JFrame {
     private void ajustesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustesActionPerformed
         new I7().setVisible(true);
     }//GEN-LAST:event_ajustesActionPerformed
+
+    private void salirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirActionPerformed
+        new I1().setVisible(true);
+    }//GEN-LAST:event_salirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -116,6 +128,7 @@ public class I6 extends javax.swing.JFrame {
     private javax.swing.JLabel I6;
     private javax.swing.JButton ajustes;
     private javax.swing.JButton procesov;
+    private javax.swing.JButton salir;
     private javax.swing.JButton vol;
     // End of variables declaration//GEN-END:variables
 }

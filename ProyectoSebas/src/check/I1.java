@@ -37,7 +37,7 @@ public class I1 extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         I1.setForeground(I1.getBackground());
-        I1.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\check\\M1.jpg")); // NOI18N
+        I1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/M1.jpg"))); // NOI18N
         getContentPane().add(I1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         retina.addActionListener(new java.awt.event.ActionListener() {

@@ -34,7 +34,7 @@ public class I9 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        I9.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\check\\M9.jpg")); // NOI18N
+        I9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/M9.jpg"))); // NOI18N
         I9.setText("jLabel1");
         getContentPane().add(I9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 477, -1));
 
